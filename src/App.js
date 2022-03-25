@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import { useEffect, useState } from 'react';
+import Card from './Card/Card';
+
 
 function App() {
   const [cookies, setCookies] = useState([]);
@@ -13,8 +15,9 @@ function App() {
 
   return (
     <div>
+
       <h1 className='new'>choose cookie</h1>
-      {cookies.map((cookie) => console.log(cookie.name))}
+      {cookies.map((cookie) => (<Card key={cookie.id} cookieData={cookie} />))}
     </div>
   );
 
