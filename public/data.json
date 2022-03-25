@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "Aachener Printen",
+        "price": "$4",
+        "img": "https://en.wikipedia.org/wiki/List_of_cookies#/media/File:Aachener_Printen_0293.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Abernethy",
+        "price": "$3",
+        "img": "https://en.wikipedia.org/wiki/List_of_cookies#/media/File:Abernethy_Biscuits..jpg"
+    },
+    {
+        "id": 3,
+        "name": "Acıbadem kurabiyesi",
+        "price": "$5",
+        "img": "https://en.wikipedia.org/wiki/List_of_cookies#/media/File:Acibadem_Kurabiyesi.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Afghan biscuits",
+        "price": "$6",
+        "img": "https://en.wikipedia.org/wiki/List_of_cookies#/media/File:AfghanBiscuit.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Alfajor",
+        "price": "$2",
+        "img": "https://en.wikipedia.org/wiki/List_of_cookies#/media/File:AlfajoresTriples.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Almond biscuit",
+        "price": "$8",
+        "img": "https://en.wikipedia.org/wiki/List_of_cookies#/media/File:Macau_Koi_Kei_Bakery_Almond_Biscuits_2.JPG"
+    },
+    {
+        "id": 7,
+        "name": "Amaretti di Saronno",
+        "price": "$10",
+        "img": "https://en.wikipedia.org/wiki/List_of_cookies#/media/File:Amaretti_gobeirne.JPG"
+    },
+    {
+        "id": 8,
+        "name": "ANZAC biscuit",
+        "price": "$4",
+        "img": "https://en.wikipedia.org/wiki/List_of_cookies#/media/File:ANZAC_biscuits.JPG"
+    },
+    {
+        "id": 9,
+        "name": "Baci di dama",
+        "price": "$5",
+        "img": "https://en.wikipedia.org/wiki/List_of_cookies#/media/File:Baci_di_dama_casalinghi.jpg"
+    }
+]
