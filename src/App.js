@@ -1,6 +1,6 @@
-import logo from './logo.svg';
+
 import './App.css';
-import { useEffect, useState } from 'react';
+
 import Card from './Card/Card';
 import React from 'react'
 import './Card/Card';

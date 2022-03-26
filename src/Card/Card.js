@@ -1,16 +1,25 @@
 import React from 'react';
 import "./Card.css";
-
+import { useEffect, useState } from 'react';
+import Product from '../Product/Product';
 const card = () => {
-    // console.log(props.coo);
-    // const { name, img, price } = cookieData;
+    const [cookies, setCookies] = useState([]);
+    console.log(cookies);
+
+    useEffect(() => {
+        fetch("data.json")
+            .then((res) => res.json())
+            .then(data => setCookies(data))
+    }, [])
 
     return (
 
 
         <div className='card-container' >
             <div className="product" >
-                <h1>product</h1>
+                {
+                    cookies.map(cookie => <Product key={cookie.id} ></Product>)
+                }
             </div>
 
             <div className='order' >
