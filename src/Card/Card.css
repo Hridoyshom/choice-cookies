@@ -18,7 +18,7 @@
   border-radius: 8px;
   padding: 5px;
 }
-@media  (min-width: 320px) and (max-width: 480px) {
+@media screen and (max-width:480px) {
   .products-container{
     grid-template-columns: repeat(1, 1fr);
   }
