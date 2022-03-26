@@ -1,9 +1,5 @@
-.card {
-    background-color: #c4c4c4;
-    height: 570px;
-    width: 350px;
-    padding: 15px;
-    position: relative;
-    justify-self: center;
-    clip-path: polygon(15% 0%, 100% 0, 100% 90%, 85% 100%, 0 100%, 0% 10%);
-  }
+.card-container{
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+  
