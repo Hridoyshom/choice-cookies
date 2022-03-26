@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const Cart = ({ cart, removeCart, randomCart }) => {
+const Cart = ({ cart, removeCart, randomCart, getNumber }) => {
     return (
         <div>
             <h2>order summary</h2>
@@ -14,6 +14,9 @@ const Cart = ({ cart, removeCart, randomCart }) => {
             </div>
             <div>
                 <button onClick={randomCart} >Choose</button>
+            </div>
+            <div>
+                <h1>{getNumber.name}</h1>
             </div>
 
         </div>

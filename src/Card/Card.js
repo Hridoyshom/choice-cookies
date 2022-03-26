@@ -10,7 +10,7 @@ import Cart from '../Cart/Cart';
 const Card = () => {
     const [cookies, setCookies] = useState([]);
     const [cart, setCart] = useState([]);
-    // const [getNumber, setGetnumber]= useState([];)
+    const [getNumber, setGetnumber] = useState([]);
 
 
 
@@ -35,7 +35,7 @@ const Card = () => {
     const randomCart = () => {
         const generateNum = Math.floor(Math.random() * cart.length);
         const getNumber = cart[generateNum]
-        console.log(getNumber);
+        setGetnumber(getNumber);
     }
 
     return (
@@ -49,13 +49,10 @@ const Card = () => {
             </div>
 
             <div className='order' >
-                <Cart cart={cart} removeCart={removeCart}  ></Cart>
+                <Cart cart={cart} getNumber={getNumber} removeCart={removeCart} randomCart={randomCart}  ></Cart>
 
             </div>
-            <div className='order' >
-                <Cart cart={cart} randomCart={randomCart}  ></Cart>
 
-            </div>
             <div>
                 <h1>
                     how react works
