@@ -18,7 +18,7 @@ const card = () => {
         <div className='card-container' >
             <div className="product" >
                 {
-                    cookies.map(cookie => <Product key={cookie.id} ></Product>)
+                    cookies.map(cookie => <Product key={cookie.id} cookie={cookie} ></Product>)
                 }
             </div>
 

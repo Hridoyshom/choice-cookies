@@ -1,9 +1,12 @@
-import React from 'react';
+import React from 'react'
+import './Product.css'
 
-const Product = () => {
+
+const Product = (props) => {
+    const { img, name, id, price } = props.cookie;
     return (
-        <div>
-            <h1>This is product</h1>
+        <div className='product' >
+            <img src={img} alt="" />
         </div>
     );
 };
